@@ -34,3 +34,63 @@ header h4 {
   font-weight: 400;
   line-height: 150%;
 }
+
+/*Lista da Seção de Certificação */
+
+#secao_certificacao {
+  background-color: #eaece5;
+}
+
+#secao_certificacao ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+#secao_certificacao ul li {
+  display: flex;
+  align-items: center;
+  color: #122235;
+  font-size: 20px;
+}
+
+#secao_certificacao ul li img {
+  margin: 40px 10px;
+}
+
+#secao_video_texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 460px;
+}
+
+#secao_esquerda {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#secao_direira {
+  width: 50%;
+  padding-left: 50px;
+}
+
+#secao_direira h4 {
+  width: 80%;
+  font-size: 32px;
+  color: #247ba0;
+}
+
+#secao_direira p {
+  margin-top: 20px;
+  width: 80%;
+  font-size: 16px;
+  color: #383838;
+}
